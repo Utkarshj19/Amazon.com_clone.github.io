@@ -21,10 +21,45 @@
 }
 .border:hover{
     border: 1.5px solid white;
-
+}
 
 /* box1 */
+/* to center the images inside the panels */
+.box-img {
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto; /* Centers the div horizontally */
+    display: block; /* Ensures margin:auto works */
 }
+/* to center text inside the boxes */
+.box-content {
+    text-align: center; /* Centers all text inside the box */
+    margin: 0 10px; /* Optional: Adjust side margins */
+}
+
+.box-content h2 {
+    margin-bottom: 10px; /* Adds space below the title */
+    font-size: 1.2rem; /* Optional: Adjust title font size */
+}
+
+.box-content p {
+    color: #007582;
+    margin-top: 10px; /* Adds space above "See more" */
+    font-size: 0.9rem; /* Optional: Adjust link font size */
+}
+/* hovering effect on see more */
+.box-content p:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #c45500; /* Amazon-style orange hover color */
+}
+
+
+
+
+
 .nav-logo{
     width: 110px;
     height:60;
